@@ -11,9 +11,9 @@
  echo "Finalizando criações de diretórios "
  echo "Executando a criação de grupos de usuários... "
 
- grupoadd GRP_ADM
- grupoadd GRP_VEN   
- grupoadd GRP_SEC
+ groupadd GRP_ADM
+ groupadd GRP_VEN   
+ groupadd GRP_SEC
 
  echo "Finalizando a crianção de grupos de usuários " 
  echo "Executando criação de usuários..."
